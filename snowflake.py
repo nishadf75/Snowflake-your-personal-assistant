@@ -19,7 +19,7 @@ def wishMe():
     else:
         speak("Good Evening!")
     speak('Hi mate')
-    speak('I am your assistant jojo')
+    speak('I am your assistant snowflake')
     speak('How can i help you')
 def takecommand():
     r=sr.Recognizer()
@@ -59,4 +59,4 @@ if __name__ == "__main__":
         elif 'the time now' in query:
             strTime=datetime.datetime.now()
             time=strTime.strftime("%H:%M:%S")
-            speak(f"sir, the time is {time}")
+            speak(f"The current time is {time}")
